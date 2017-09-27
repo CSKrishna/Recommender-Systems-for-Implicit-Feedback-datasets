@@ -16,3 +16,5 @@ Collaborative Filtering based on matrix factorization techniques is now consider
 
 
 We propose to customize the algorithm by [2] (supported by Spark’s Machine Learning library) wherein the model learns these latent factors based on implicit feedback derived from the item-user purchase matrix:
+
+[https://user-images.githubusercontent.com/13146709/30917513-d22d628e-a3b9-11e7-8d39-76e621e420ba.png]
