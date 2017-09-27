@@ -1,6 +1,6 @@
 # Recommender Systems for Implicit Feedback: Collaborative Filtering augmented with Side-Information
 ## Problem Definition
- A common use case is to build models for cross-sell/up-sell recommendations from an item catalogue to an extant user base.
+ A common use case is to recommend additional items from an item catalogue to a user.
 In coming up with these recommendations, the algorithm underlying the cross-sell/up-sell models must take into account:
 * user purchase behavior
 * user and item attributes
