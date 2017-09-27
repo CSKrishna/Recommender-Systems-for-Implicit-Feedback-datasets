@@ -19,3 +19,12 @@ We propose to customize the algorithm by [2] (supported by Spark’s Machine Lea
 
 
 ![alt text](https://user-images.githubusercontent.com/13146709/30917513-d22d628e-a3b9-11e7-8d39-76e621e420ba.png)
+
+‘1’ indicates that the item is present in the user’s item portfolio. The customization entails augmenting user and item latent factors with the user’s observable features.  
+
+This hybrid approach of combining collaborative filtering with regression confers the following benefits: 
+
+1. It ovecomes the cold-start problem where a user has very few purchases and a purely CF based approach would make poor recommendations 
+2. Encoding contextual information such as - the user’s marketing receptivity, recent usage behavior and propensity to churn - potentially improves the quality of recommendations.
+3. The combination of contextual features, item and user metadata and user-item latent factors ensures that the recommendations per user are not only personalized but also tailored for the context.
+
