@@ -12,7 +12,7 @@ In Collaborative Filtering (CF), the model directly learns from the purchase beh
 When a user has exhibited sufficient purchase behavior, the CF based approach in general is superior to content based approaches that make predictions based on the user’s observable features [1]. 
 
 
-Collaborative Filtering based on matrix factorization techniques is now considered state of the art. In this approach, we estimate latent factors per each user and item. These latent factors characterize the user’s unobservable preferences and can be combined with the latent factors of other items in CTL’s inventory to recommend the top items the user is likely to purchase. We can think of these latent factors as the user’s underlying DNA that cannot be directly observed and only inferred from the user’s purchases. 
+Collaborative Filtering based on matrix factorization techniques is now considered state of the art. In this approach, we estimate latent factors per each user and item. These latent factors characterize the user’s unobservable preferences and can be combined with the latent factors of other items in the comppany's inventory to recommend the top items the user is likely to purchase. We can think of these latent factors as the user’s underlying DNA that cannot be directly observed and only inferred from the user’s purchases. 
 
 
 We propose to customize the algorithm by [2] (supported by Spark’s Machine Learning library) wherein the model learns these latent factors based on implicit feedback derived from the item-user purchase matrix:
